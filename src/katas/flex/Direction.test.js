@@ -38,7 +38,8 @@ const Direction= (props)=>{
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: colors[3],
+    flex: 1,
+    backgroundColor: colors[3]
   },
   text:{
     color: 'white',
@@ -52,4 +53,3 @@ const styles = StyleSheet.create({
 
 Direction.displayName = 'Direction'
 export default Direction
-
